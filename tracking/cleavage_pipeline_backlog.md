@@ -33,13 +33,14 @@ This backlog is intended for GitHub Copilot (or any AI agent) to bootstrap and i
   - Left_Percentage, Right_Percentage ✅
 - **Acceptance Criteria:** Calc sheets exist; formulas are documented in `/docs/FORMULAS.md`. ✅
 
-### Task 4: Docs – Formula Reference
+### Task 4: Docs – Formula Reference ✅ COMPLETED
 - **Description:** Document drop‑in formulas for residues, sums, percentages, and dynamic array outputs (Left‑anchored and Right‑anchored tables).
-- **Acceptance Criteria:** `FORMULAS.md` includes:
-  - Residue parsing formulas
-  - Left/Right sums
-  - sum + percentage
-  - Dynamic view formulas (`SORTBY + HSTACK + FILTER`)
+- **Acceptance Criteria:** `FORMULAS.md` includes: ✅
+  - Residue parsing formulas ✅
+  - Left/Right sums ✅
+  - sum + percentage ✅
+  - Dynamic view formulas (`SORTBY + HSTACK + FILTER`) ✅
+- **Implementation Notes:** Complete Excel formula reference with 9 core formulas, error handling, and dynamic array outputs. All formulas tested with sample data.
 
 ### Task 5: Docs – Workflow
 - **Description:** Write step‑by‑step usage doc for non‑technical users.
