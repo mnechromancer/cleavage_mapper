@@ -40,14 +40,15 @@ This backlog is intended for GitHub Copilot (or any AI agent) to bootstrap and i
   - Left/Right sums ✅
   - sum + percentage ✅
   - Dynamic view formulas (`SORTBY + HSTACK + FILTER`) ✅
-- **Implementation Notes:** Complete Excel formula reference with 9 core formulas, error handling, and dynamic array outputs. All formulas tested with sample data.
+- **Implementation Notes:** Complete Excel formula reference with 9 core formulas, error handling, and dynamic array outputs. All formulas tested with sample data and implemented in Excel template.
 
-### Task 5: Docs – Workflow
+### Task 5: Docs – Workflow ✅ COMPLETED
 - **Description:** Write step‑by‑step usage doc for non‑technical users.
-- **Acceptance Criteria:** `WORKFLOW.md` explains:
-  - How to paste raw data into Raw sheets
-  - How Calc auto‑updates
-  - Where to find Left‑anchored vs Right‑anchored outputs
+- **Acceptance Criteria:** `WORKFLOW.md` explains: ✅
+  - How to paste raw data into Raw sheets ✅
+  - How Calc auto‑updates ✅
+  - Where to find Left‑anchored vs Right‑anchored outputs ✅
+- **Implementation Notes:** Complete workflow guide with data format requirements, step-by-step instructions, sample data usage, troubleshooting, and performance notes.
 
 ---
 
@@ -57,9 +58,10 @@ This backlog is intended for GitHub Copilot (or any AI agent) to bootstrap and i
 - **Description:** Implement optional formulas using `BYCOL + MASK` to detect `.1` suffix for Right block.
 - **Acceptance Criteria:** `FORMULAS.md` contains a second variant that removes need for hard‑coded ranges.
 
-### Task 7: Sample Data
+### Task 7: Sample Data ✅ COMPLETED
 - **Description:** Add small sample CSVs for Raw 100/200/500 mgd with 2–3 fake rows.
-- **Acceptance Criteria:** Users can import these into the template and see the pipeline produce outputs.
+- **Acceptance Criteria:** Users can import these into the template and see the pipeline produce outputs. ✅
+- **Implementation Notes:** Updated all sample CSV files with properly formatted sequences in (LEFT)CORE(RIGHT) format and realistic function values for testing.
 
 ### Task 8: CI/Validation
 - **Description:** Add a GitHub Actions workflow to check repo integrity (lint Markdown, ensure sample CSVs exist, etc.).
