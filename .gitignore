@@ -1,69 +1,101 @@
-# Cleavage Mapper - Office and OS Files
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Excel temporary files
-~$*.xlsx
-~$*.xlsm
-~$*.xls
-*.tmp
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Excel backup files
-*.xlk
-
-# Office temporary files
-.~lock.*
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
-*.lnk
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon?
-._*
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Linux
-*~
-.fuse_hidden*
-.directory
-.Trash-*
-.nfs*
-
-# IDE and Editor files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# Output files (keep structure but ignore analysis results)
+output/*
+!output/.gitkeep
+!output/README.md
+
+# Large data files
+*.zip
+*.gz
+*.tar
+*.rar
+
+# Large Excel files (keep only samples)
+data/*_results.xlsx
+data/*_output.xlsx
+data/processed_*.xlsx
+
+# Generated visualizations (examples can be kept)
+output/*.png
+output/*.jpg
+output/*.pdf
+output/*.svg
+
+# Temporary files
+*.tmp
+*.log
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# System and backup files
+*.bak
+*.orig
+*~
+.swp
+.swo
+
+# Large analysis results
+cleavage_mapper_output.xlsx
+processed_cleavage_mapper_output.xlsx
+cleavage_analysis_results.xlsx

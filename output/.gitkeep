@@ -1,0 +1,10 @@
+# Output directory
+This directory contains all generated results from your analyses.
+
+## Structure
+- Each analysis run creates a separate subdirectory
+- Results include Excel files, visualizations, and reports
+- Files are automatically organized by analysis type
+
+## Contents
+Your analysis results will appear here after running the tool.
